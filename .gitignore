@@ -1,0 +1,14 @@
+.DS_Store
+
+# pycache
+__pycache__
+
+# env
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# idea folder
+*.idea
