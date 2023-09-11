@@ -27,7 +27,6 @@ class User(Base):
     email: Mapped[str] = mapped_column(unique=True)
     password: Mapped[str]
     created_at: Mapped[datetime] = mapped_column(TIMESTAMP(timezone=True), server_default=text('now()'))
-    phone_number: Mapped[str]
 
 
 class Vote(Base):
